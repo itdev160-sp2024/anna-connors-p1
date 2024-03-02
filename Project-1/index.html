@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--Link to Google Font - Lugrasimo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="centered">Flower Stories</h1>
+        <h3 id="greeting"></h3>
+    </header>
+    <section id="grid1">
+        <div>
+            <figure>
+                <img src="images/anemone.jpg" alt="anemone">
+                <button onclick="anemone()">Anemone</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/babys-breath.jpg" alt="baby's breath">
+                <button onclick="babyBreath()">Baby's Breath</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/carnation.jpg" alt="carnation">
+                <button onclick="carnation()">Carnation</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/daffodil.jpg" alt="daffodil">
+                <button onclick="daffodil()">Daffodil</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/dahlia.jpg" alt="dahlia">
+                <button onclick="dahlia()">Dahlia</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/Iris.jpg" alt="Iris">
+                <button onclick="Iris()">Iris</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/sunflower.jpg" alt="sunflower">
+                <button onclick="sunflower()">Sunflower</button>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/tulip.jpg" alt="tulip">
+                <button onclick="tulip()">tulip</button>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <div>
+        <!--Quick Reference Table-->
+        <table>
+            <tr>
+                <th>Flower</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>Anemone</td>
+                <td>Foresaken</td>
+            </tr>
+            <tr>
+                <td>Baby’s Breath</td>
+                <td>Everlasting Love</td>
+            </tr>
+            <tr>
+                <td>Carnation</td>
+                <td>Fascination, Mother’s Love</td>
+            </tr>
+            <tr>
+                <td>Daffodil</td>
+                <td>Unequalled Love</td>
+            </tr>
+            <tr>
+                <td>Dahlia</td>
+                <td>Good Taste</td>
+            </tr>
+            <tr>
+                <td>Iris</td>
+                <td>Faith, Trust</td>
+            </tr>
+            <tr>
+                <td>Sunflower</td>
+                <td>Adoration</td>
+            </tr>
+            <tr>
+                <td>Tulip, Red</td>
+                <td>Passion</td>
+            </tr>
+        </table>
+        </div>
+        <div id="quoteBox">
+            <div id="quoteContainer">
+                <p id="quote"></p>
+            </div>
+            <button id="generateButton">Thinking About Flowers?</button>
+        </div>
+        <div>
+            <h3 id="formTitle">Which Flowers Should We Add?</h3>
+            <form>
+                <form>
+                    <input type="checkbox" id="angelica" name="angelica" value="Angelica">
+                    <label for="angelica">Angelica</label><br>
+                
+                    <input type="checkbox" id="aster" name="aster" value="Aster">
+                    <label for="aster">Aster</label><br>
+                
+                    <input type="checkbox" id="begonia" name="begonia" value="Begonia">
+                    <label for="begonia">Begonia</label><br>
+                
+                    <input type="checkbox" id="black-eyed-susan" name="black-eyed-susan" value="Black-Eyed Susan">
+                    <label for="black-eyed-susan">Black-Eyed Susan</label><br>
+                
+                    <input type="checkbox" id="borage" name="borage" value="Borage">
+                    <label for="borage">Borage</label><br>
+                
+                    <input type="checkbox" id="calla-lily" name="calla-lily" value="Calla Lily">
+                    <label for="calla-lily">Calla Lily</label><br>
+                
+                    <input type="checkbox" id="columbine" name="columbine" value="Columbine">
+                    <label for="columbine">Columbine</label><br>
+                
+                    <input type="checkbox" id="gardenia" name="gardenia" value="Gardenia">
+                    <label for="gardenia">Gardenia</label><br>
+                
+                    <input type="checkbox" id="hibiscus" name="hibiscus" value="Hibiscus">
+                    <label for="hibiscus">Hibiscus</label><br>
+                
+                    <input type="checkbox" id="hydrangea" name="hydrangea" value="Hydrangea">
+                    <label for="hydrangea">Hydrangea</label><br>
+                
+                    <input type="checkbox" id="marigold" name="marigold" value="Marigold">
+                    <label for="marigold">Marigold</label><br>
+                
+                    <input type="checkbox" id="pansy" name="pansy" value="Pansy">
+                    <label for="pansy">Pansy</label><br>
+                
+                    <input type="checkbox" id="poppy" name="poppy" value="Poppy">
+                    <label for="poppy">Poppy</label><br>
+                
+                    <input type="checkbox" id="red-rose" name="red-rose" value="Red Rose">
+                    <label for="red-rose">Red Rose</label><br>
+                
+                    <input type="checkbox" id="white-rose" name="white-rose" value="White Rose">
+                    <label for="white-rose">White Rose</label><br>
+                
+                    <input type="checkbox" id="snapdragon" name="snapdragon" value="Snapdragon">
+                    <label for="snapdragon">Snapdragon</label><br>
+                
+                    <input type="checkbox" id="violet" name="violet" value="Violet">
+                    <label for="violet">Violet</label><br>
+                    
+                    <input type="text" id="other" name="other">
+                    <label for="other">Any Others?</label><br>
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </form>
+        </div>
+    </section>
+</body>
+<footer>
+</footer>
+<script src="script.js"></script>
+
+</html>

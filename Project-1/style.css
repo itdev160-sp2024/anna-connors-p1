@@ -1,0 +1,83 @@
+* {
+    font-family: 'Lugrasimo', serif; 
+}
+
+body {
+    background-color: #FDEDEC;
+}
+
+header {
+    background-color: #27AE60; 
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    text-align: center;
+    color: #FADBD8;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    color: #FADBD8;
+}
+
+section {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr); 
+}
+
+figure {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+figure img {
+    width: 80%;
+    grid-row: 1;
+    grid-column: span 1;
+}
+
+figure button {
+    grid-row: 2;
+}
+
+table {
+    border: 2px solid #145A32;
+}
+
+tr td{
+    border: 2px solid #145A32;
+}
+
+#quoteBox {
+    border: 2px solid #27AE60;
+    margin: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    margin: 1em;
+    font-size: 2em;
+}
+
+#generateButton {
+    width: 50%;
+}
+
+form {
+    margin: 1em;
+}
+
+#formTitle {
+    color: #27AE60;
+    margin: 1em;
+}
